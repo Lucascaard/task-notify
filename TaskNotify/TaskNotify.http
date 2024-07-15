@@ -1,0 +1,6 @@
+@TaskNotify_HostAddress = http://localhost:5056
+
+GET {{TaskNotify_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
